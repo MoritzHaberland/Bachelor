@@ -6,8 +6,8 @@ class DatasetFactory:
             'mnist': MNISTDataset
         }
 
-    def get_dataset(self, dataset_name: str):
+    def get_dataset(self, dataset_name: str,**kwargs):
         dataset_class = self.datasets.get(dataset_name.lower())
         if dataset_class is None:
             raise ValueError(f"Datensatz {dataset_name} ist nicht verfügbar.")
-        return dataset_class()
+        return dataset_class(**kwargs)

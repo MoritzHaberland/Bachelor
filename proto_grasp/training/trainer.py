@@ -13,22 +13,25 @@ class Trainer:
 
     def train(self):
         """Train the neural network module."""
-        self.model.train()  # Set the module to training mode
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.model.to(device)
+
+        n_total_steps = len(self.train_loader)
         for epoch in range(self.num_epochs):
-            running_loss = 0.0
-            for inputs, targets in self.train_loader:
-                self.optimizer.zero_grad()  # Zero the parameter gradients
-
-                # Forward pass
-                outputs = self.model(inputs)  # Forward pass
-                loss = self.criterion(outputs, targets)  # Calculate the loss
-
-                # Backward pass
-                loss.backward()  # Backward pass
-                self.optimizer.step()  # Update weights
-
-                running_loss += loss.item()  # Accumulate the loss
-
-            # Print the average loss for this epoch
-            print(f'Epoch [{epoch + 1}/{self.num_epochs}], Loss: {running_loss / len(self.train_loader):.4f}')
-
+            for i, (images, labels) in enumerate(self.train_loader):  
+                # origin shape: [100, 1, 28, 28]
+                # resized: [100, 784]
+                images = images.reshape(-1, 28*28).to(device)
+                labels = labels.to(device)
+                
+                # Forward pass and loss calculation
+                outputs = self.model(images)
+                loss = self.criterion(outputs, labels)
+                
+                # Backward and optimize
+                loss.backward()
+                self.optimizer.step()
+                self.optimizer.zero_grad()
+                
+                if (i+1) % 100 == 0:
+                    print (f'Epoch [{epoch+1}/{self.num_epochs}], Step [{i+1}/{n_total_steps}], Loss: {loss.item():.4f}')
