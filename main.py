@@ -1,9 +1,19 @@
 from proto_grasp.model.model_factory import ModelFactory
-from config.neural_net_config import get_neural_net_config
+from proto_grasp.data.dataset_factory import DatasetFactory
+from config.config import get_config
 
 if __name__ == "__main__":
-    model_config = get_neural_net_config()
-    factory = ModelFactory()
-    model = factory.get_model("neural_net",model_config)
+    # initialize configs
+    config = get_config()
+    model_config = config.model
+    train_config = config.training
+
+    #build model
+    model_factory = ModelFactory()
+    model = model_factory.get_model(model_config)
+
+    #build training loaders
+    data_factory = DatasetFactory()
+    dataset = data_factory.get_dataset(train_config.dataset)
 
 

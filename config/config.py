@@ -10,7 +10,7 @@ def get_config():
     config.run_name = 'experiment_1'
     
     # Füge separate Konfigurationen hinzu
-    config.models = get_neural_net_config()
+    config.model = get_neural_net_config()
     config.training = get_training_config()
 
     return config
