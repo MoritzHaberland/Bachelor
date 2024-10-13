@@ -1,0 +1,43 @@
+{
+  "os":  "Linux-6.5.0-41-generic-x86_64-with-glibc2.35",
+  "python":  "3.12.7",
+  "startedAt":  "2024-10-13T13:35:06.627889Z",
+  "program":  "/home/mhaberland/Bachelor/main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/MoritzHaberland/Bachelor.git",
+    "commit":  "b5a80908306339463bd7446a53efbec98769058c"
+  },
+  "email":  "moritz.haberland@web.de",
+  "root":  "/home/mhaberland/Bachelor",
+  "host":  "manul",
+  "username":  "mhaberland",
+  "executable":  "/home/mhaberland/miniconda3/envs/ba/bin/python",
+  "codePathLocal":  "main.py",
+  "cpu_count":  14,
+  "cpu_count_logical":  20,
+  "gpu":  "[NVIDIA GeForce RTX 3060]",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "939698290688",
+      "used":  "163784163328"
+    }
+  },
+  "memory":  {
+    "total":  "33389789184"
+  },
+  "cpu":  {
+    "count":  14,
+    "countLogical":  20
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3060",
+      "memoryTotal":  "12884901888",
+      "cudaCores":  3584,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}

@@ -1,0 +1,18 @@
+{"time":"2024-10-13T15:39:17.548213025+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T15:39:17.548221217+02:00","level":"INFO","msg":"created symlink","path":"/home/mhaberland/Bachelor/wandb/run-20241013_153917-2vrszji0/logs/debug-core.log"}
+{"time":"2024-10-13T15:39:17.551316632+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T15:39:17.557526427+02:00","level":"INFO","msg":"created new stream","id":"2vrszji0"}
+{"time":"2024-10-13T15:39:17.557584503+02:00","level":"INFO","msg":"stream: started","id":"2vrszji0"}
+{"time":"2024-10-13T15:39:17.55763732+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"2vrszji0"}}
+{"time":"2024-10-13T15:39:17.557694394+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"2vrszji0"}}
+{"time":"2024-10-13T15:39:17.557750945+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"2vrszji0"}}
+{"time":"2024-10-13T15:39:17.813044948+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T15:39:17.813750553+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T15:39:17.874265006+02:00","level":"INFO","msg":"stream: closing","id":"2vrszji0"}
+{"time":"2024-10-13T15:39:17.874342176+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T15:39:17.877165338+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T15:39:18.901798171+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T15:39:19.095193198+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"2vrszji0"}}
+{"time":"2024-10-13T15:39:19.095254019+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"2vrszji0"}}
+{"time":"2024-10-13T15:39:19.095315709+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"2vrszji0"}}
+{"time":"2024-10-13T15:39:19.095414867+02:00","level":"INFO","msg":"stream: closed","id":"2vrszji0"}

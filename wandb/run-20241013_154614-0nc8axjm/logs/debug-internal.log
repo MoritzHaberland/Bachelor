@@ -1,0 +1,18 @@
+{"time":"2024-10-13T15:46:14.970090885+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T15:46:14.9700995+02:00","level":"INFO","msg":"created symlink","path":"/home/mhaberland/Bachelor/wandb/run-20241013_154614-0nc8axjm/logs/debug-core.log"}
+{"time":"2024-10-13T15:46:14.973226183+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T15:46:14.979712824+02:00","level":"INFO","msg":"created new stream","id":"0nc8axjm"}
+{"time":"2024-10-13T15:46:14.979771075+02:00","level":"INFO","msg":"stream: started","id":"0nc8axjm"}
+{"time":"2024-10-13T15:46:14.979835084+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"0nc8axjm"}}
+{"time":"2024-10-13T15:46:14.979852455+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0nc8axjm"}}
+{"time":"2024-10-13T15:46:14.979915177+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"0nc8axjm"}}
+{"time":"2024-10-13T15:46:15.20205963+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T15:46:15.202348937+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T15:46:18.476751151+02:00","level":"INFO","msg":"stream: closing","id":"0nc8axjm"}
+{"time":"2024-10-13T15:46:18.476768351+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T15:46:18.477566294+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T15:46:19.234795278+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T15:46:19.410461588+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"0nc8axjm"}}
+{"time":"2024-10-13T15:46:19.410562272+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"0nc8axjm"}}
+{"time":"2024-10-13T15:46:19.410539198+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"0nc8axjm"}}
+{"time":"2024-10-13T15:46:19.410718572+02:00","level":"INFO","msg":"stream: closed","id":"0nc8axjm"}

@@ -4,11 +4,19 @@ from proto_grasp.training.trainer import Trainer
 from proto_grasp.testing.tester import tester
 from config.config import get_config
 
+import wandb
 import torch
 import torch.nn as nn
 
+
 def setup():
-    # initialize configs
+    # initialize W&B
+    wandb.init(
+        project="BA Test Project",
+        config=get_config().to_dict() # Log my config
+    )
+
+     # initialize configs
     config = get_config()
     model_config = config.model
     train_config = config.training

@@ -1,0 +1,18 @@
+{"time":"2024-10-13T15:31:56.382499349+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T15:31:56.382508707+02:00","level":"INFO","msg":"created symlink","path":"/home/mhaberland/Bachelor/wandb/run-20241013_153156-5hmu0jfk/logs/debug-core.log"}
+{"time":"2024-10-13T15:31:56.386786929+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T15:31:56.39310997+02:00","level":"INFO","msg":"created new stream","id":"5hmu0jfk"}
+{"time":"2024-10-13T15:31:56.393170575+02:00","level":"INFO","msg":"stream: started","id":"5hmu0jfk"}
+{"time":"2024-10-13T15:31:56.393229392+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"5hmu0jfk"}}
+{"time":"2024-10-13T15:31:56.393242876+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"5hmu0jfk"}}
+{"time":"2024-10-13T15:31:56.393249141+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"5hmu0jfk"}}
+{"time":"2024-10-13T15:31:56.682181913+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T15:31:56.682480617+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T15:31:56.746199457+02:00","level":"INFO","msg":"stream: closing","id":"5hmu0jfk"}
+{"time":"2024-10-13T15:31:56.747029915+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T15:31:56.749338307+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T15:31:57.703144316+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T15:31:57.881799088+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"5hmu0jfk"}}
+{"time":"2024-10-13T15:31:57.881867509+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"5hmu0jfk"}}
+{"time":"2024-10-13T15:31:57.881908724+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"5hmu0jfk"}}
+{"time":"2024-10-13T15:31:57.882024268+02:00","level":"INFO","msg":"stream: closed","id":"5hmu0jfk"}

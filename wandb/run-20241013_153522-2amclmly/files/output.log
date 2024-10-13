@@ -1,0 +1,21 @@
+{}
+Traceback (most recent call last):
+  File "/home/mhaberland/miniconda3/envs/ba/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mhaberland/miniconda3/envs/ba/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mhaberland/Bachelor/main.py", line 46, in <module>
+    setup()
+  File "/home/mhaberland/Bachelor/main.py", line 21, in setup
+    model_config = config.model
+                   ^^^^^^^^^^^^
+  File "/home/mhaberland/miniconda3/envs/ba/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 167, in __getattr__
+    raise AttributeError(
+AttributeError: <class 'wandb.sdk.wandb_config.Config'> object has no attribute 'model'

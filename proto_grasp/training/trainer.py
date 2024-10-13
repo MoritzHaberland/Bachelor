@@ -1,7 +1,9 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import wandb
 from torch.utils.data import DataLoader
+
 
 class Trainer:
     def __init__(self, model: nn.Module, criterion: nn.Module, optimizer: optim.Optimizer, train_loader: DataLoader, num_epochs: int):
@@ -34,5 +36,10 @@ class Trainer:
                 self.optimizer.zero_grad()
                 
                 if (i+1) % 100 == 0:
+                    wandb.log({
+                        "epoch": epoch+1,
+                        "step": i+1,
+                        "loss": loss.item()
+                    })
                     print (f'Epoch [{epoch+1}/{self.num_epochs}], Step [{i+1}/{n_total_steps}], Loss: {loss.item():.4f}')
         

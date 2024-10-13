@@ -1,0 +1,13 @@
+Epoch [1/2], Step [100/600], Loss: 0.3799
+Epoch [1/2], Step [200/600], Loss: 0.2453
+Epoch [1/2], Step [300/600], Loss: 0.2306
+Epoch [1/2], Step [400/600], Loss: 0.1497
+Epoch [1/2], Step [500/600], Loss: 0.1221
+Epoch [1/2], Step [600/600], Loss: 0.1425
+Epoch [2/2], Step [100/600], Loss: 0.2266
+Epoch [2/2], Step [200/600], Loss: 0.1471
+Epoch [2/2], Step [300/600], Loss: 0.0967
+Epoch [2/2], Step [400/600], Loss: 0.1406
+Epoch [2/2], Step [500/600], Loss: 0.2038
+Epoch [2/2], Step [600/600], Loss: 0.0961
+Accuracy of the network on the 10000 test images: 97.02 %

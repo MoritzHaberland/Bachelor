@@ -1,0 +1,34 @@
+model:
+  hidden_size: 500
+  input_size: 784
+  name: neural_net
+  num_classes: 10
+project_name: my_model_project
+run_name: experiment_1
+training:
+  batch_size: 100
+  dataset: MNIST
+  learning_rate: 0.001
+  num_epochs: 2
+
+{}
+Traceback (most recent call last):
+  File "/home/mhaberland/miniconda3/envs/ba/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mhaberland/miniconda3/envs/ba/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'model'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mhaberland/Bachelor/main.py", line 47, in <module>
+    setup()
+  File "/home/mhaberland/Bachelor/main.py", line 22, in setup
+    model_config = config.model
+                   ^^^^^^^^^^^^
+  File "/home/mhaberland/miniconda3/envs/ba/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 167, in __getattr__
+    raise AttributeError(
+AttributeError: <class 'wandb.sdk.wandb_config.Config'> object has no attribute 'model'
