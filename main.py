@@ -1,12 +1,13 @@
 from proto_grasp.model.model_factory import ModelFactory
 from proto_grasp.data.dataset_factory import DatasetFactory
 from proto_grasp.training.trainer import Trainer
+from proto_grasp.testing.tester import tester
 from config.config import get_config
 
 import torch
 import torch.nn as nn
 
-if __name__ == "__main__":
+def setup():
     # initialize configs
     config = get_config()
     model_config = config.model
@@ -30,5 +31,10 @@ if __name__ == "__main__":
     # train model
     trainer.train()
 
-    #
+    # store model
+    tester(test_set.get_dataloader(train_config.batch_size,shuffle=False), model)
+
+if __name__ == "__main__":
+    setup()
+    
 
