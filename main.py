@@ -10,16 +10,16 @@ import torch.nn as nn
 
 
 def setup():
-    # initialize W&B
-    wandb.init(
-        project="BA Test Project",
-        config=get_config().to_dict() # Log my config
-    )
-
-     # initialize configs
+    #load config
     config = get_config()
     model_config = config.model
     train_config = config.training
+
+    # initialize W&B
+    wandb.init(
+        project="BA Test Project",
+        config=config.to_dict() # Log my config
+    )
 
     # build model
     model_factory = ModelFactory()

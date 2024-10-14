@@ -1,0 +1,18 @@
+{"time":"2024-10-14T10:54:44.833575706+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-14T10:54:44.833613293+02:00","level":"INFO","msg":"created symlink","path":"/home/mhaberland/Bachelor/wandb/run-20241014_105444-lstkkola/logs/debug-core.log"}
+{"time":"2024-10-14T10:54:44.837563497+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-14T10:54:44.843062231+02:00","level":"INFO","msg":"created new stream","id":"lstkkola"}
+{"time":"2024-10-14T10:54:44.843123477+02:00","level":"INFO","msg":"stream: started","id":"lstkkola"}
+{"time":"2024-10-14T10:54:44.843186265+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"lstkkola"}}
+{"time":"2024-10-14T10:54:44.843186335+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lstkkola"}}
+{"time":"2024-10-14T10:54:44.843248743+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lstkkola"}}
+{"time":"2024-10-14T10:54:45.115097517+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-14T10:54:45.115954199+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-14T10:54:48.293342537+02:00","level":"INFO","msg":"stream: closing","id":"lstkkola"}
+{"time":"2024-10-14T10:54:48.293369989+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-14T10:54:48.294583652+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-14T10:54:50.294326827+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-14T10:54:50.481575079+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lstkkola"}}
+{"time":"2024-10-14T10:54:50.481674866+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lstkkola"}}
+{"time":"2024-10-14T10:54:50.481688476+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"lstkkola"}}
+{"time":"2024-10-14T10:54:50.481906905+02:00","level":"INFO","msg":"stream: closed","id":"lstkkola"}
